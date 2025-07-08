@@ -1,0 +1,8 @@
+/* advantage of using css modules : classes are localy scoped by default.
+because refering the className  using var the 'css-module' can't be used in childern component.
+so don't use the class which is styled for another. */
+
+.success{
+    color:green;
+}
+

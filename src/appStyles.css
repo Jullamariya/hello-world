@@ -1,0 +1,7 @@
+/*advantage of using css modules : classes are localy scoped by default.
+ eg; if copy 'error' heading to "Inline" & uncommand Inline component . "error" still works in red. 
+ so css can be applied to the child components. */
+
+.error{
+    color:red;
+}
